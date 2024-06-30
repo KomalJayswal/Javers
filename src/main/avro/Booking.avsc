@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "namespace": "com.learning",
+  "name": "Booking",
+  "fields": [
+    {"name": "id", "type": "string"},
+    {"name": "name", "type": "string"},
+    {"name": "email", "type": "string"}
+  ]
+}
