@@ -19,7 +19,7 @@ public class BookingAvroDeltaService {
         UserWrapper user1 = new UserWrapper("1", "John Doe", "john.doe@example.com");
         UserWrapper user2 = new UserWrapper("1", "John Smith", "john.smith@example.com");
 
-        Diff diff = javers.compare(user1, user2);
+        Diff diff = javers.compare(oldPayload, newPayload);
         return diff.prettyPrint();
     }
 }
